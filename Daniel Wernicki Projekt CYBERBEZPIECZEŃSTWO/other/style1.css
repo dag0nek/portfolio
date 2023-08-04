@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./Cyberpunk2077_2022_10_18_22_01_28_386.jpg);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-container{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.quiz-header{
+    padding: 10px;
+}
+h2{
+    font-size: 33px;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 20px;
+    margin: 30px 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: red;
+    color: #fff;
+    width: 300px;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: inherit;
+    padding: 30px;
+}
+button:hover{
+    background-color: orange;
+}
+button:focus{
+    outline: none;
+    background-color: red;
+}

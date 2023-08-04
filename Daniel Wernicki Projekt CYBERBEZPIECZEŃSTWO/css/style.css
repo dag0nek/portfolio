@@ -1,0 +1,229 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-weight: 500;
+    color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+#menu{
+    font-family: Bradley Hand, cursive;
+    font-size: 18px;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    width: 100%;
+    bottom: 20px;  
+    margin-bottom: 10px;
+}
+.cols{
+    background-image: linear-gradient(
+        to right,
+        red,
+        red 50%,
+        black 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.6s ease-in-out;
+}
+.cols:hover {
+    background-position: 0;
+}
+.cols:hover::before {
+    width: 100%;
+}
+#menu a{
+
+    text-decoration: none;
+    padding: 1rem .5rem;
+    color: black;
+}
+#list{
+    position: relative;
+}
+#list ul{
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    background-color: aqua;
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 25);
+    margin-top: 10px;
+    border-radius: 7px;
+    display: none;
+}
+#list ul li{
+    padding: .5rem;
+}
+#list ul li a{
+    
+    text-align: 1px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#list ul li:hover{
+    background: yellow;
+    border-radius: 7px;    
+}
+#list a:focus + ul,
+#list a:hover + ul,
+#list ul:hover{
+    display: block;
+}
+#media{
+    position: relative;
+}
+#media ul{
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    background-color: aqua;
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 25);
+    margin-top: 10px;
+    border-radius: 7px;
+    display: none;
+}
+#media ul li{
+    padding: .5rem;
+}
+#media ul li a{
+    text-align: 1px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+#media ul li:hover{
+    background: yellow;
+    border-radius: 7px;    
+}
+#media a:focus + ul,
+#media a:hover + ul,
+#media ul:hover{
+    display: block;
+}
+header{
+    background-color: #00ffd2;
+    background-image: url(./rgb.png);
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 24px;
+    height: 80px;
+    text-align: right;
+    width: 100%;
+}
+@media screen and (max-width: 1600px) {
+    header {
+      background-image: url(./rgb2.png);
+    }
+}
+header h1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    text-shadow: 5px 2px 18px rgba(66, 68, 90, 1);
+    margin-right: 5%;
+}
+div#Cyberbezpieczenstwo{
+    margin-top: -90px;
+    height: 1080px;
+    width: 100%;
+    text-align: center;
+    clear: both;   
+    background-image: url(./backgraound.jpg);
+    background-repeat: no-repeat;
+    
+}
+p#what{
+    padding-top: 5%;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Impact, 'fantasy';
+    font-size: 60px;
+
+}
+img.hr{
+    width: 100%;
+}
+p.what{ 
+    color: white;
+    font-family: Impact, 'fantasy';
+    font-size: 30px;
+
+}
+
+div#types2{
+    background-image: url(./backgraound2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+p#types{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Impact, 'fantasy';
+    font-size: 36px;
+    width: 350px;
+    margin-left: 40%;
+}
+div#types{
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+div#films{
+    background-image: url(./background\ 3.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p#movie{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, 'fantasy';
+    color: red;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+p#connect{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+iframe{
+    margin-bottom: 160px;
+}
+footer{
+    background-image: url(./HR.png);
+    height: 86px;
+}
+footer p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
