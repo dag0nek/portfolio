@@ -1,0 +1,12 @@
+.calendar{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calendar h2{
+    color: greenyellow;
+    font-size: 3vh;
+}

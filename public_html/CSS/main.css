@@ -1,0 +1,137 @@
+.main{
+    height: 100vh;
+    padding-top: 5%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.all{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.main_text{
+     padding-left: 40px; 
+     padding-top: 40px;
+     padding-bottom: 40px;
+     color: white;
+     background-color: black;  
+     margin-left: 5%;
+     border-left: 1px solid white;
+    
+     
+}
+
+h1{
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+    text-align: left;
+    padding-bottom: 5%;
+    color: #adff2f;
+}
+h5{
+    font-size: 2vh;
+    text-align: center;
+    display: block;
+    text-align: left;
+    
+}
+.look{
+    display: block;
+    flex: 1;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.25s ease-out;
+    border: 1px solid white;
+    padding: 2vh;
+}
+.look:hover{
+    background-color: #adff2f;
+    color: black;
+    border: 1px solid #adff2f;
+}
+.contener{
+    
+    flex: 2;
+    display: flex;
+    margin-left: 100px;
+    height: 80%;
+    flex-direction: column;
+    border-left: 1px solid white;
+    
+    
+    
+    
+}
+.contener p {
+    color: white;
+}
+.zsz{
+    height: 35%;
+    
+}
+.logo_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+.content_contener{
+    color: white;
+    flex: 1;
+}
+.content_contener ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:30%;
+    padding-left: 15%;
+    
+
+}
+.content_contener ol{
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     gap: 30%;
+     padding-left: 32%;
+}
+.line{
+    height: 5px;
+    background-color: white;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+.content_contener  li{
+     text-align: center;
+     color: greenyellow;
+}
+.content_contener li{
+    font-size: 35px;
+    font-weight: bold;
+}
+.content_contener p{
+    font-size: 15px;
+}
+.content_contener li{
+    line-height: 80%;
+}
+

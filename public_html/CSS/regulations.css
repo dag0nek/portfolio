@@ -1,0 +1,47 @@
+.regulations{
+    height: 100vh;
+    color: white;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10%;
+}
+.regulations ol{
+padding: 0;
+}
+.regulations li{
+    font-size: 1vh;
+}
+.enforcer img{
+    height:70vh ;
+    border-left: 5px solid greenyellow;
+}
+.rebel img{
+    height: 70vh;
+    border-right: 5px solid greenyellow;
+}
+.reg h1{
+    font-size: 3vh;
+}
+.reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.enforcer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rebel{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

@@ -1,0 +1,65 @@
+
+.header_nav{              
+    height: 10vh; 
+     border-bottom:1px solid white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     width: 100%;
+     color: white;
+     background-color: black;
+
+
+}
+.nav_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.5vw;
+    list-style-type: none;
+}
+.list_element{
+    font-size: 1.6vh;
+}
+.list_link{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    
+}
+.list_link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #adff2f;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.list_link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+}
+.list_link:hover{
+     color:#adff2f;
+}
+.logo{
+    height: 30px;
+    overflow: hidden;
+    
+}
+.fa-twitch{
+    color:#6441a5 ;
+    font-size: 2.4vh;
+}
+.fa-facebook-f{
+    color:#4267B2;
+    font-size: 2.4vh;
+}

@@ -1,0 +1,1211 @@
+@media  (max-width: 600px) {
+    body{
+        max-width: 600px;
+    }
+    .header_nav{              
+        height: 30vh; 
+         border-bottom:1px solid white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-direction: column;
+         width: 100%;
+         color: white;
+         position: static;
+         background-color: black;
+    
+    
+    }
+    .nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 9px;
+        list-style-type: none;
+    }
+    .list_element{
+        font-size: 1vh;
+    }
+    .list_link{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        
+    }
+    .list_link::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #adff2f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .list_link:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+    }
+    .list_link:hover{
+         color:#adff2f;
+    }
+    .logo{
+        height: 25px;
+        overflow: hidden;
+        
+    }
+    .fa-twitch{
+        color:#6441a5 ;
+        font-size: 1.1vh;
+    }
+    .fa-facebook-f{
+        color:#4267B2;
+        font-size: 1.1vh;
+    }
+
+
+
+
+
+    .main{
+        height: 100vh;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        
+    }
+    
+    .main_text{
+        
+         color: white;
+         background-color: black;  
+         max-width: 600px;
+         border-left: 1px solid white;
+         padding-left: 15px;
+        
+         
+    }
+    
+    h1{
+        font-size: 1.6vh;
+        font-weight: bold;
+        text-align: center;
+        text-align: left;
+        color: #adff2f;
+        font-weight: lighter;
+    }
+    h5{
+        font-size: 1.1vh;
+        text-align: center;
+        display: block;
+        text-align: left;
+        font-weight: lighter;
+        
+    }
+    .look{
+        margin-left: 5%;
+        margin-top: 4%;
+        color: white;
+        text-decoration: none;
+        transition: 0.25s ease-out;
+        border: 1px solid white;
+        font-size: 1vh;
+        font-weight: lighter;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .look:hover{
+        background-color: #adff2f;
+        color: black;
+        border: 1px solid #adff2f;
+    }
+    .contener{
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contener p {
+        color: white;
+    }
+    .zsz{
+        height: 50px;
+    }
+    .logo_content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_contener{
+        color: white;
+        width: 70%;
+    }
+    .content_contener ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap:30%;
+        padding-left: 20%;
+        
+    
+    }
+
+    .content_contener ol{
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         gap: 30%;
+         padding-left: 35%;
+    }
+    .line{
+        height: 2px;
+        background-color: white;
+        width:100%
+        
+    }
+    .content_contener  li{
+         text-align: center;
+         color: greenyellow;
+    }
+    .content_contener li{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+    .content_contener p{
+        font-size: 8px;
+        font-weight: lighter;
+    }
+    .content_contener li{
+        line-height: 80%;
+    }
+    
+
+
+
+    .regulations{
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .regulations ol{
+    padding: 5px;
+    }
+    .regulations li{
+        font-size: 1vh;
+        font-weight: lighter;
+    }
+    .enforcer img{
+        height: 0;
+    }
+    .rebel img{
+        height: 0;
+        
+    }
+    .reg h1{
+        font-size: 1.6vh;
+    }
+
+
+
+
+
+    .teams{
+        height: 300vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    table ,tr ,td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    .t5{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    td{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .green{
+        color: greenyellow;
+    }
+    .t5_t h2{
+        text-align: center;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 1.5vh;
+        color: greenyellow;
+    }
+    .teams_2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .t2_t{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .t2_t h2{
+        color: greenyellow;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 1.5vh;
+        text-align: center;
+    }
+    table{
+        width: 100px;
+    }
+
+
+    .calendar{
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .calendar h2{
+        color: greenyellow;
+        font-size:1.5vh;
+    }
+    .calendar img{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+}
+
+@media (min-width: 601px) and (max-width:900px ) {
+    .header_nav{              
+        height: 10vh; 
+         border-bottom:1px solid white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         position: fixed;
+         width: 100%;
+         color: white;
+         background-color: black;
+    
+    
+    }
+    .nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6.5vw;
+        list-style-type: none;
+    }
+    .list_element{
+        font-size: 1vh;
+        font-weight: lighter;
+    }
+    .list_link{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        
+    }
+    .list_link::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #adff2f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .list_link:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+    }
+    .list_link:hover{
+         color:#adff2f;
+    }
+    .logo{
+        height: 30px;
+        overflow: hidden;
+        
+    }
+    .fa-twitch{
+        color:#6441a5 ;
+        font-size: 2.4vh;
+    }
+    .fa-facebook-f{
+        color:#4267B2;
+        font-size: 2.4vh;
+    }
+
+    
+    .main{
+        height: 100vh;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .all{
+        display: flex;
+
+        
+        
+        
+        
+    }
+    .main_text{
+         padding-left: 30px; 
+         color: white;
+         background-color: black;  
+         border-left: 1px solid white;
+        
+         
+    }
+    
+    h1{
+        font-size: 2.5vh;
+        font-weight: bold;
+        text-align: center;
+        text-align: left;
+        padding-bottom: 5%;
+        color: #adff2f;
+    }
+    h5{
+        font-size: 1.5vh;
+        text-align: center;
+        display: block;
+        text-align: left;
+        font-weight: lighter;
+        
+    }
+    .look{
+        display: block;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+        font-weight: lighter;
+        text-decoration: none;
+        transition: 0.25s ease-out;
+        border: 1px solid white;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .look:hover{
+        background-color: #adff2f;
+        color: black;
+        border: 1px solid #adff2f;
+    }
+    .contener{
+        
+        display: flex;
+        margin-left: 100px;
+        flex-direction: column;
+        border-left: 1px solid white;
+        height: 340px;
+        
+        
+        
+        
+    }
+    .contener p {
+        color: white;
+    }
+    .zsz{
+        height: 50px;
+        
+    }
+    .logo_content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_contener{
+        color: white;
+    }
+    .content_contener ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap:30%;
+        padding-left: 15%;
+        
+    
+    }
+    .content_contener ol{
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         gap: 30%;
+         padding-left: 32%;
+    }
+    .line{
+        height: 3px;
+        background-color: white;
+        width:90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    .content_contener  li{
+         text-align: center;
+         color: greenyellow;
+    }
+    .content_contener li{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content_contener p{
+        font-size: 9px;
+        font-weight: lighter;
+    }
+    .content_contener li{
+        line-height: 80%;
+    }
+    
+
+    .regulations{
+        height: 100vh;
+        color: white;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .regulations ol{
+    padding: 0;
+    }
+    .regulations li{
+        font-size: 1.3vh;
+        font-weight: lighter;
+    }
+    .enforcer img{
+        height:200px ;
+        border-left: 5px solid greenyellow;
+    }
+    .rebel img{
+        height: 200px;
+        border-right: 5px solid greenyellow;
+    }
+    .reg{
+        flex: 2;
+    }
+    .enforcer{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rebel{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+    .teams{
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    table ,tr ,td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    .t5{
+        display: flex;
+        gap: 10px;
+    }
+    td{
+        padding: 5px;
+        font-size: 8px;
+    }
+    .green{
+        color: greenyellow;
+    }
+    .t5_t h2{
+        text-align: center;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 1.7vh;
+        color: greenyellow;
+    }
+    .teams_2{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .t2_t{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .t2_t h2{
+        color: greenyellow;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 1.7vh;
+        text-align: center;
+    }
+    table{
+        width: 15px;
+    }
+
+    .calendar{
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .calendar h2{
+        color: greenyellow;
+        font-size:1.5vh;
+    }
+    .calendar img{
+        height: 300px;
+    }
+}
+
+@media  (min-width: 900px) and (max-width: 1150px) {
+    .header_nav{              
+        height: 10vh; 
+         border-bottom:1px solid white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         position: fixed;
+         width: 100%;
+         color: white;
+         background-color: black;
+    
+    
+    }
+    .nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6.5vw;
+        list-style-type: none;
+    }
+    .list_element{
+        font-size: 1.6vh;
+    }
+    .list_link{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        
+    }
+    .list_link::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #adff2f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .list_link:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+    }
+    .list_link:hover{
+         color:#adff2f;
+    }
+    .logo{
+        height: 30px;
+        overflow: hidden;
+        
+    }
+    .fa-twitch{
+        color:#6441a5 ;
+        font-size: 2.4vh;
+    }
+    .fa-facebook-f{
+        color:#4267B2;
+        font-size: 2.4vh;
+    }
+
+    
+    .main{
+        height: 100vh;
+        padding-top: 60px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .all{
+        
+        display: flex;
+        
+        
+    }
+    .main_text{
+         padding-left: 40px; 
+         padding-top: 40px;
+         padding-bottom: 40px;
+         color: white;
+         background-color: black;  
+         margin-left: 5%;
+         border-left: 1px solid white;
+        
+         
+    }
+    
+    h1{
+        font-size: 2.7vh;
+        font-weight: bold;
+        text-align: center;
+        text-align: left;
+        padding-bottom: 5%;
+        color: #adff2f;
+    }
+    h5{
+        font-size: 1.5vh;
+        text-align: center;
+        display: block;
+        text-align: left;
+        
+    }
+    .look{
+        display: block;
+        flex: 1;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 4%;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.25s ease-out;
+        border: 1px solid white;
+        padding: 2vh;
+    }
+    .look:hover{
+        background-color: #adff2f;
+        color: black;
+        border: 1px solid #adff2f;
+    }
+    .contener{
+        
+        display: flex;
+        margin-left: 100px;
+        height: 380px;
+        flex-direction: column;
+        border-left: 1px solid white;
+        
+        
+        
+        
+    }
+    .contener p {
+        color: white;
+    }
+    .zsz{
+        height: 60px;
+        
+    }
+    .logo_content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content_contener{
+        color: white;
+    }
+    .content_contener ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap:30%;
+        padding-left: 15%;
+        
+    
+    }
+    .content_contener ol{
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         gap: 30%;
+         padding-left: 32%;
+    }
+    .line{
+        height: 5px;
+        background-color: white;
+        width:90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    .content_contener  li{
+         text-align: center;
+         color: greenyellow;
+    }
+    .content_contener li{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content_contener p{
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    .content_contener li{
+        line-height: 80%;
+    }
+    .reg h1{
+        font-size: 2.5vh;
+    }
+    .regulations{
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .regulations ol{
+    padding: 0;
+    }
+    .regulations li{
+        font-size: 1.3vh;
+    }
+    .enforcer img{
+        height:0 ;
+        border-left: 5px solid greenyellow;
+    }
+    .rebel img{
+        height: 0;
+        border-right: 5px solid greenyellow;
+    }
+    .reg{
+        flex: 2;
+    }
+    .enforcer{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rebel{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+
+    .teams{
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    table ,tr ,td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    .t5{
+        display: flex;
+        gap: 10px;
+    }
+    td{
+        padding: 10px;
+        font-size: 1.3vh;
+    }
+    .green{
+        color: greenyellow;
+    }
+    .t5_t h2{
+        text-align: center;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 3vh;
+        color: greenyellow;
+    }
+    .teams_2{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .t2_t{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .t2_t h2{
+        color: greenyellow;
+        font-weight: lighter;
+        padding-bottom: 30px;
+        font-size: 3vh;
+        text-align: center;
+    }
+    table{
+        width: 50px;
+    }
+
+    .calendar{
+        height: 100vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .calendar h2{
+        color: greenyellow;
+        font-size:1.5vh;
+    }
+    .calendar img{
+        height: 400px;
+    }
+    
+}
+
+@media (min-width: 1151px) {
+    .header_nav{              
+        height: 10vh; 
+         border-bottom:1px solid white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         position: fixed;
+         width: 100%;
+         color: white;
+         background-color: black;
+    
+    
+    }
+    .nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6.5vw;
+        list-style-type: none;
+    }
+    .list_element{
+        font-size: 1.6vh;
+    }
+    .list_link{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        
+    }
+    .list_link::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #adff2f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    .list_link:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+        
+    }
+    .list_link:hover{
+         color:#adff2f;
+    }
+    .logo{
+        height: 30px;
+        overflow: hidden;
+        
+    }
+    .fa-twitch{
+        color:#6441a5 ;
+        font-size: 2.4vh;
+    }
+    .fa-facebook-f{
+        color:#4267B2;
+        font-size: 2.4vh;
+    }
+
+    
+    .main{
+        height: 100vh;
+        padding-top: 5%;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .all{
+        
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .main_text{
+         padding-left: 40px; 
+         padding-top: 40px;
+         padding-bottom: 40px;
+         color: white;
+         background-color: black;  
+         margin-left: 5%;
+         border-left: 1px solid white;
+        
+         
+    }
+    
+    h1{
+        font-size: 6vh;
+        font-weight: bold;
+        text-align: center;
+        text-align: left;
+        padding-bottom: 5%;
+        color: #adff2f;
+    }
+    h5{
+        font-size: 2vh;
+        text-align: center;
+        display: block;
+        text-align: left;
+        
+    }
+    .look{
+        display: block;
+        flex: 1;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 4%;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        transition: 0.25s ease-out;
+        border: 1px solid white;
+        padding: 2vh;
+    }
+    .look:hover{
+        background-color: #adff2f;
+        color: black;
+        border: 1px solid #adff2f;
+    }
+    .contener{
+        
+        flex: 2;
+        display: flex;
+        margin-left: 100px;
+        height: 80%;
+        flex-direction: column;
+        border-left: 1px solid white;
+        
+        
+        
+        
+    }
+    .contener p {
+        color: white;
+    }
+    .zsz{
+        height: 35%;
+        
+    }
+    .logo_content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex: 1;
+        align-items: center;
+    }
+    .content_contener{
+        color: white;
+        flex: 1;
+    }
+    .content_contener ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap:30%;
+        padding-left: 15%;
+        
+    
+    }
+    .content_contener ol{
+         list-style-type: none;
+         display: flex;
+         flex-direction: row;
+         gap: 30%;
+         padding-left: 32%;
+    }
+    .line{
+        height: 5px;
+        background-color: white;
+        width:90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    .content_contener  li{
+         text-align: center;
+         color: greenyellow;
+    }
+    .content_contener li{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .content_contener p{
+        font-size: 15px;
+    }
+    .content_contener li{
+        line-height: 80%;
+    }
+    
+
+    .regulations{
+        height: 100vh;
+        color: white;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding-top: 10%;
+    }
+    .regulations ol{
+    padding: 0;
+    }
+    .regulations li{
+        font-size: 1.7vh;
+    }
+
+
+
+
+
+    .teams{
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table ,tr ,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.t5{
+    display: flex;
+    gap: 20px;
+}
+td{
+    padding: 10px;
+    font-size: 1.5vh;
+}
+.green{
+    color: greenyellow;
+}
+.t5_t h2{
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    font-size: 3vh;
+    color: greenyellow;
+}
+.teams_2{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.t2_t{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.t2_t h2{
+    color: greenyellow;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    font-size: 3vh;
+    text-align: center;
+}
+table{
+    width: 120px;
+}
+}
